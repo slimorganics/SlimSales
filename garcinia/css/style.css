@@ -1,0 +1,59 @@
+/*
+ * Theme Name: Dash of Green
+ * Theme Author: WPSqueezer
+ * Theme URI: http://www.wpsqueezer.com/themes/dash-of-green
+ * Tags: Green, dash, clean, editorial
+*/
+
+/* - GLOBAL
+--------------------------------------------------------------------------------------------------------------------------------------- */
+body { background:url(../images/bg-body.png) repeat-x top left #f8f8f8; font-family: 'Times New Roman', Georgia, serif; color: #333; font-size:82.5%; margin:0; padding:0; text-align:center; }
+a { color: #788b22; }
+
+/* - STRUCTURE
+--------------------------------------------------------------------------------------------------------------------------------------- */
+#constant-call { background:url(../images/bg-constant-call.png) repeat-x top left; height:54px; position:fixed; width:100%; text-align:center; z-index:1000;}
+#outer { width: 800px; margin:0 auto; overflow:hidden; text-align:center; }
+#page { position:relative; margin-top:100px; background:#fff; width:100%; padding:10px 0; text-align:center;}
+#video { margin:-55px auto 0 auto; width:640px; height:390px; background:url(../images/img-video-placeholder.jpg) no-repeat center center #000; position:relative;}
+#page .left { width: 44%; float:left; text-align:left; padding:10px; margin:10px 12px;}
+#page .right { width: 42%; float:right; background: url(../images/bg-vr.png) no-repeat left center; text-align:left; padding:10px 15px 10px 20px; margin:10px 12px; }
+
+
+/* - FORMATTING
+--------------------------------------------------------------------------------------------------------------------------------------- */
+#constant-call{color:#fff;}
+#constant-call h2{display:inline-block;height:40px;margin:0;padding-top:10px;}
+#constant-call form{ display:inline-block; padding:5px 10px; margin:0 10px; height:40px;}
+#constant-call form #ccemail {  font-size:1em; padding:6px 4px; border:1px solid #43500a; }
+#constant-call form #ccsubmit { padding:5px; background:#43500a; border:1px solid #889d2b; text-align:center; color:#fff; font-size:1em; font-family: 'Times New Roman', Georgia, serif;}
+
+#page .content { background:url(../images/bg-page.png) repeat-x top left #fff; padding:10px; width:760px; margin:auto; font-size:1.15em; }
+#page h1 { background: url(../images/bg-hr.png) no-repeat bottom center; font-size:2.75em; text-align:center; padding-bottom:10px; width:85%; font-weight:normal; margin:5px auto; }
+#page h1 em { font-style:italic; }
+
+.shadow { height:30px; background:url(../images/bg-shadow.png) no-repeat top center; clear:both; }
+
+#columns { overflow:hidden; }
+.column{ width:49%; overflow:hidden; }
+.column.left{float:left; text-align:left; }
+.column.right{float:right;}
+
+.column.left h3 { font-weight:normal; color:#788b22; text-align:center; font-size:1.25em; margin:2px auto;} 
+.column.left h3 em { font-weight:bold; font-style:normal; }
+.column.left ol {  padding:5px 30px; margin:0; list-style-image:url(../images/blt-list.png); display:block; }
+.column.left ol li { font-size:1em; color: #788b22; margin:4px 0; padding:4px 2px; width:100%; }
+.column.left ol li strong { color:#607211; border-bottom:1px solid #dbe2bb; width:100%; display:block; }
+
+.column.right form { background:#f9faf3; padding:10px; text-align:center; border:1px solid #dbe2bb;}
+.column.right form fieldset { border:none; padding:10px;}
+.column.right form fieldset h3{color:#788b22; font-style:italic; font-size:1.45em; border-bottom:1px solid #dbe2bb; padding-bottom:4px; }
+.column.right form label {display:block;color:#788b22;}
+.column.right form #txtemail { height:30px; width:90%; margin:2px auto; border:1px solid #dbe2bb; line-height:30px; font-size:1em;}
+.column.right form #btnsubmit { height:40px; width:90%; background:url(../images/bg-button.png) repeat-x bottom left #7a8d23; border:1px solid #43500a; text-align:center; color:#fff; font-size:1em; font-family: 'Times New Roman', Georgia, serif;}
+.column.right form .disclosure { border-top:1px solid #dbe2bb; text-align:left; padding:10px 5px; color:#a0ae64;}
+
+.lead { clear:both; margin:25px auto; overflow:hidden; padding-top:10px;}
+.lead h3 { background: url(../images/bg-hr.png) no-repeat bottom center; font-size:1.35em; text-align:center; padding-bottom:10px; width:80%; font-weight:normal; margin:5px auto; }
+
+.note { color:#a9a9a9; padding:5px 0 20px 0; text-align:left; width:80%; margin:0 auto;}
